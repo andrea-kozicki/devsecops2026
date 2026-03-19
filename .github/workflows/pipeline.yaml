@@ -26,4 +26,4 @@ jobs:
       - name: Instalando bandit
         run: pip install bandit
       - name: Análise estática
-        run: bandit -r
+        run: bandit -r .
